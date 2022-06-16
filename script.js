@@ -19,7 +19,7 @@ inputElement.addEventListener("keypress", (e)=>{
         let inScore=inputElement.value
         winScoreElement.textContent=inScore;
         winScore=+inScore;
-        inScore="";
+        inputElement.value="";
         //console.log(inputElement.textContent)
     }
 })
